@@ -24,7 +24,7 @@ If you ask Codex about your pacing, usage values returned to that conversation a
 
 ## Retention and controls
 
-Tracking starts when you request it, runs once per minute, and continues after closing the dashboard until stopped or the computer shuts down. Ask **Stop Pace** to stop. No startup task is installed. Missing observations are not reconstructed.
+Tracking starts when you request it, runs once per minute, and continues after closing the dashboard until stopped or the computer shuts down. Ask **Stop Pace** to stop. Startup is off by default. If you explicitly enable Windows startup, Pace saves a per-user Startup launcher and a stable copy of its runtime under the data directory. It then starts at Windows sign-in and recovers if the tracker stops. Disable Pace startup removes that launcher. Stop Pace pauses until you start it again or your next sign-in if startup remains enabled. Disable startup before uninstalling to prevent the retained runtime from starting. Missing observations are not reconstructed.
 
 Local history remains until you delete it. To remove it, stop Pace, remove its data directory, and clear browser site data for the dashboard's local origin. Back up history before deleting it if you want to keep a copy. Stopping or uninstalling the plugin does not itself delete history.
 

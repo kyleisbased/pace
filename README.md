@@ -15,7 +15,9 @@ After installation, ask **Start Pace** to start the local tracker and open its d
 
 Ask **Am I on pace?** to compare your remaining allowance with the fixed target. Targets are calculated guidance, not a prediction of how many prompts a task will use. Missing history is never reconstructed.
 
-Pace is being prepared for the OpenAI plugin directory. Directory approval and publication are not yet confirmed.
+[Install Pace](https://chatgpt.com/plugins/plugins_6aeb9ffb2a0081918fb67459d8f94494). Version 0.1.1 is published. Version 0.2.0 is being submitted for review with a reset-aligned Day/Week graph, simplified panels and dotted connectors for changes across gaps.
+
+Version 0.2.0 adds optional Windows startup. Ask **Enable Pace startup** to start at sign-in and recover from tracker exits, or **Disable Pace startup** to remove it. Startup is off by default. When enabled, Stop Pace pauses until Start Pace or the next Windows sign-in. Disable startup before uninstalling. These features are not included in version 0.1.1.
 
 ## Product information
 
